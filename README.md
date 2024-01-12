@@ -5,10 +5,11 @@ Minimal example using slsDetectorPackage from cmake
 ### First compile and install the slsDetectorPackage
 
 ```bash
-#Clone the slsDetectorPackage and swith tho the correct branch
-https://github.com/slsdetectorgroup/slsDetectorPackage.git
+#Clone the slsDetectorPackage and switch tho the correct branch
+git clone https://github.com/slsdetectorgroup/slsDetectorPackage.git
+git branch xxxxx
 
-#Create a build directory and configure the projcet
+#Create a build directory and configure the project
 mkdir build && cd build
 cmake ../slsDetectorPackage -DCMAKE_INSTALL_PREFIX=/where/to/install
 make -j12
